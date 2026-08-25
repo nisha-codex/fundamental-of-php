@@ -266,6 +266,7 @@ if ($choice == 1) {
                 echo "🏦😨*******THE STORY END ....WITHOUT KNOWING THE HISTORY*******🥺😔";
                 echo "THEY CANT'T HELP the ghost🥺😔";
             } else {
+                echo "\nThey all Died and story ended\n\n";
                 echo "🏦😨*******THE STORY END ....WITHOUT KNOWING THE HISTORY*******🥺😔";
                 echo "THEY CANT'T HELP the ghost🥺😔";
             }
