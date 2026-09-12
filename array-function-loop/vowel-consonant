@@ -1,0 +1,43 @@
+<?php
+// $name = str_split(strtolower("Ruhi Anjum"));
+// print_r($name);
+// $consonants = [];
+// $vowels = [];
+// foreach ($name as $key) {
+//     if (str_contains("aeiou", $key)) {
+//         $vowels[] = $key;
+//     } else if ($key != " ") {
+//         $consonants[] = $key;
+//     }
+// }
+
+// echo "vowels in the string are : ";
+// print_r($vowels);
+
+// echo "consonants in the string are : ";
+// print_r($consonants);
+
+
+    $name = strtolower("Ruhi Anjum");
+    $name = str_replace(" ","",$name);
+    $name = str_split($name);
+    print_r($name);
+
+
+    $vowels=0;
+    $consonants=0;
+    foreach($name as $ch){
+        if(str_contains("aeiou",$ch)){
+            $vowels++;
+        }else{
+            $consonants++;
+        }
+    }
+    echo "\n";
+    $show = [
+        "vowels => $vowels",
+        "consonantss => $consonants"
+    ];
+
+    print_r($show);
+
