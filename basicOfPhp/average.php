@@ -4,7 +4,7 @@
     $c=10;
     $d=7;
     $e=8;
-
+    echo "this is the average of numbers: \n";
     $avg=($a+$b+$c+$d+$e)/5;
     echo "average = $avg".PHP_EOL;
 
